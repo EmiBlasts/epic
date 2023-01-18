@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    padding-top: 800px;
+}
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome {
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    background: linear-gradient(#f29e18 0%, #ebf218 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.paralax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: comic;
+    font-weight: 300;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.line {
+    height: 6px;
+    background-color: #ebf218;
+    width: 70px;
+    margin: 8px auto;
+}
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Bebas Neue', cursive;
+}
+p {
+    max-width: 450;
+    margin: 25px auto;
+    font-size: 25px;
+    line-height: 1.3;
+}
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 25px;
+}
+#name {
+    font-family: 'Zen Dots', cursive;
+}
+a {
+    text-decoration: none;
+}
+.Article:hover {
+    color:#ebf218;
+}
+html {
+    scroll-behavior: smooth;
+}
